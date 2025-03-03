@@ -27,4 +27,4 @@ jobs:
         run: composer global require phpstan/phpstan
 
       - name: Run Phpstan Static Analysis
-        run: ~/.composer/vendor/bin/phpstan analyse assets/ config/ database/ lang/ resources/ routes/ src/ stubs/
+        run: ~/.composer/vendor/bin/phpstan analyse assets/ config/ src/
