@@ -33,7 +33,6 @@ class AssetFilesServiceProvider extends ServiceProvider
         $this->commands([
             Console\AssetsInstallCommand::class,
             Console\ConfigInstallCommand::class,
-            Console\DatabaseInstallCommand::class,
             Console\InstallCommand::class,
             Console\OptimizeConfigurationCommand::class,
             Console\ResourcesInstallCommand::class,
