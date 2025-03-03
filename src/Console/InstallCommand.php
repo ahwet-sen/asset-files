@@ -1,6 +1,6 @@
 <?php
 
-namespace AhwetSen\PackageGenerator\Console;
+namespace AhwetSen\AssetFiles\Console;
 
 use Illuminate\Console\Command;
 
@@ -11,14 +11,14 @@ class InstallCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'package-generator:install';
+    protected $signature = 'asset-files:install';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Install the package-generator package files';
+    protected $description = 'Install the asset-files package files';
 
     /**
      * Execute the console command.
@@ -67,7 +67,7 @@ class InstallCommand extends Command
     {
         foreach (configValue('package_commands') as $packageCommand => $status) {
             if ($status) {
-                $this->call('package-generator:'.$packageCommand.'-install');
+                $this->call('asset-files:'.$packageCommand.'-install');
 
                 $this->writeln($this->seperator());
             }
@@ -83,7 +83,7 @@ class InstallCommand extends Command
      */
     protected function end(): void
     {
-        $this->info('package-generator scaffolding installed successfully.');
+        $this->info('asset-files scaffolding installed successfully.');
 
         $this->writeln($this->seperator());
 

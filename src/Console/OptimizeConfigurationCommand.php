@@ -1,6 +1,6 @@
 <?php
 
-namespace AhwetSen\PackageGenerator\Console;
+namespace AhwetSen\AssetFiles\Console;
 
 use Illuminate\Console\Command;
 

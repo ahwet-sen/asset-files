@@ -1,12 +1,12 @@
 {
-    "name": "ahwet-sen/package-generator",
-    "description": "Simple Package To Quickly Generate Basic Structure For Other Laravel Packages.",
+    "name": "ahwet-sen/asset-files",
+    "description": "Asset Files.",
     "license": "MIT",
     "type": "library",
     "version": "v0.0.0",
     "keywords": [
         "ahwet-sen",
-        "package-generator"
+        "asset-files"
     ],
     "authors": [
         {
@@ -15,10 +15,10 @@
             "role": "Developer"
         }
     ],
-    "homepage": "https://github.com/ahwet-sen/package-generator",
+    "homepage": "https://github.com/ahwet-sen/asset-files",
     "support": {
-        "issues": "https://github.com/ahwet-sen/package-generator/issues",
-        "source": "https://github.com/ahwet-sen/package-generator"
+        "issues": "https://github.com/ahwet-sen/asset-files/issues",
+        "source": "https://github.com/ahwet-sen/asset-files"
     },
     "require": {
         "php": "^8.2",
@@ -35,7 +35,7 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "AhwetSen\\PackageGenerator\\": "src/"
+            "AhwetSen\\AssetFiles\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -48,10 +48,10 @@
     "extra": {
         "laravel": {
             "aliases": {
-                "PackageGenerator": "AhwetSen\\PackageGenerator\\PackageGeneratorFacade"
+                "AssetFiles": "AhwetSen\\AssetFiles\\AssetFilesFacade"
             },
             "providers": [
-                "AhwetSen\\PackageGenerator\\PackageGeneratorServiceProvider"
+                "AhwetSen\\AssetFiles\\AssetFilesServiceProvider"
             ]
         }
     }
