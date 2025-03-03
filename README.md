@@ -1,24 +1,24 @@
 [
     <p align="center">
-        <img src="https://banners.beyondco.de/package-generator.png?theme=light&packageManager=composer+require&packageName=ahwet-sen%2Fpackage-generator&pattern=architect&style=style_1&description=Simple+Package+To+Quickly+Generate+Basic+Structure+For+Other+Laravel+Packages.&md=1&showWatermark=0&fontSize=175px&images=https://raw.githubusercontent.com/laravel/art/d5f5e725c27f877ed032225fe0b00afee9337d0f/laravel-logo.svg" alt="package-generator">
+        <img src="https://banners.beyondco.de/asset-files.png?theme=light&packageManager=composer+require&packageName=ahwet-sen%2Fasset-files&pattern=architect&style=style_1&description=Asset+Files.&md=1&showWatermark=0&fontSize=175px&images=https://raw.githubusercontent.com/laravel/art/d5f5e725c27f877ed032225fe0b00afee9337d0f/laravel-logo.svg" alt="asset-files">
     </p>
-](https://github.com/ahwet-sen/package-generator)
+](https://github.com/ahwet-sen/asset-files)
 
 - - - - -
 
 [
     <p align="center">
-        <img src="https://img.shields.io/packagist/dt/ahwet-sen/package-generator" alt="Total Downloads">
-        <img src="https://img.shields.io/packagist/v/ahwet-sen/package-generator" alt="Latest Stable Version">
-        <img src="https://img.shields.io/packagist/l/ahwet-sen/package-generator" alt="License">
+        <img src="https://img.shields.io/packagist/dt/ahwet-sen/asset-files" alt="Total Downloads">
+        <img src="https://img.shields.io/packagist/v/ahwet-sen/asset-files" alt="Latest Stable Version">
+        <img src="https://img.shields.io/packagist/l/ahwet-sen/asset-files" alt="License">
     </p>
-](https://github.com/ahwet-sen/package-generator)
+](https://github.com/ahwet-sen/asset-files)
 
 - - - - -
 
-# package-generator
+# asset-files
 
-    Simple Package To Quickly Generate Basic Structure For Other Laravel Packages.
+    Asset Files.
 
 - - - - -
 
@@ -35,7 +35,7 @@
 **_Download `Laravel` System Files_**
 
 ```bash
-laravel new package-generator
+laravel new asset-files
 
 ```
 
@@ -69,14 +69,14 @@ no
 
 - - - - -
 
-**Download `package-generator` System Files In The `Laravel` Project Folder**
+**Download `asset-files` System Files In The `Laravel` Project Folder**
 
 - - - - -
 
-**Switch To `package-generator` Directory**
+**Switch To `asset-files` Directory**
 
 ```bash
-cd package-generator
+cd asset-files
 
 ```
 
@@ -87,7 +87,7 @@ cd package-generator
 ```bash
 cls
 
-copy F:\composer-json\v12x\package-generator\composer.json C:\xampp\htdocs\package-generator\composer.json
+copy F:\composer-json\v12x\asset-files\composer.json C:\xampp\htdocs\asset-files\composer.json
 
 ```
 
@@ -102,10 +102,10 @@ yes
 
 - - - - -
 
-**Install `package-generator` Package**
+**Install `asset-files` Package**
 
 ```bash
-composer require ahwet-sen/package-generator
+composer require ahwet-sen/asset-files
 
 ```
 
@@ -125,7 +125,7 @@ composer dump-autoload
 ```bash
 cls
 
-copy F:\composer-json\v12x\Providers\AppServiceProvider.php C:\xampp\htdocs\package-generator\app\Providers\AppServiceProvider.php
+copy F:\composer-json\v12x\Providers\AppServiceProvider.php C:\xampp\htdocs\asset-files\app\Providers\AppServiceProvider.php
 
 ```
 
@@ -140,10 +140,10 @@ yes
 
 - - - - -
 
-**Publish All `package-generator` System Files**
+**Publish All `asset-files` System Files**
 
 ```bash
-php artisan package-generator:install
+php artisan asset-files:install
 
 ```
 
@@ -158,7 +158,7 @@ php artisan optimize-configuration
 
 - - - - -
 
-**_Application ready in [package-generator]. You can start your local development using:_**
+**_Application ready in [asset-files]. You can start your local development using:_**
 
 ```bash
 npm install && npm run build
@@ -189,13 +189,13 @@ Please see [TODO](TODO.md) for more information on what's coming soon.
 
 ## Demo
 
-[Package Generator Page](http://package-generator.test)
+[Asset Files Page](http://asset-files.test)
 
 - - - - -
 
 ## Package
 
-[Package Home Page](https://github.com/ahwet-sen/package-generator)
+[Package Home Page](https://github.com/ahwet-sen/asset-files)
 
 - - - - -
 

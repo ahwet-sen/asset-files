@@ -1,16 +1,16 @@
 <?php
 
-namespace AhwetSen\PackageGenerator;
+namespace AhwetSen\AssetFiles;
 
 use Illuminate\Support\Facades\Facade;
 
-class PackageGeneratorFacade extends Facade
+class AssetFilesFacade extends Facade
 {
     /**
      * Get the registered name of the component.
      */
     protected static function getFacadeAccessor(): string
     {
-        return 'package-generator';
+        return 'asset-files';
     }
 }
