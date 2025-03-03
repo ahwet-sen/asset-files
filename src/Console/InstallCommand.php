@@ -53,7 +53,7 @@ class InstallCommand extends Command
      */
     protected function seperator(): string
     {
-        return match (configValue('seperator')) {
+        return match (assetFilesConfigValue('seperator')) {
             'dashed' => '------------------------------------------------------------------------------------------------------------------------------------------------------',
             'dotted' => '......................................................................................................................................................',
             default => '======================================================================================================================================================',
@@ -65,7 +65,7 @@ class InstallCommand extends Command
      */
     protected function startInstallation(): void
     {
-        foreach (configValue('package_commands') as $packageCommand => $status) {
+        foreach (assetFilesConfigValue('package_commands') as $packageCommand => $status) {
             if ($status) {
                 $this->call('asset-files:'.$packageCommand.'-install');
 
