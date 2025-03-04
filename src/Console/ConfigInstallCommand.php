@@ -36,6 +36,6 @@ class ConfigInstallCommand extends Command
     {
         (new Filesystem)->copy(__DIR__.'/../../config/asset-files.php', config_path('asset-files.php'));
 
-        $this->info('The configuration file publishing process has been successfully completed.');
+        $this->info('     -----> The configuration file publishing process has been successfully completed.');
     }
 }
