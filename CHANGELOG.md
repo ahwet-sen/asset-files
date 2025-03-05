@@ -2,6 +2,16 @@
 
 All notable changes to `asset-files` will be documented in this file.
 
+## v1.1.0 - 2025-03-05
+
+### What's Changed
+
+* Update phpstan-static-analysis.yml by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/15
+* Update AssetsInstallCommand.php by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/16
+* Update composer.json by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/17
+
+**Full Changelog**: https://github.com/ahwet-sen/asset-files/compare/v1.0.0...v1.1.0
+
 ## v1.0.0 - 2025-03-04
 
 ### What's Changed
