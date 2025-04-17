@@ -44,7 +44,7 @@ return [
 
     'package_commands' => [
         'assets' => true,
-        'config' => true,
+        'config' => false,
     ],
 
     /*
@@ -59,5 +59,17 @@ return [
     */
 
     'seperator' => 'dotted',
+
+    /*
+    |--------------------------------------------------------------------------
+    | Seperator Length
+    |--------------------------------------------------------------------------
+    |
+    | Seperator length.
+    |
+    |
+    */
+
+    'seperator_length' => 210,
 
 ];

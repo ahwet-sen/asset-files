@@ -17,7 +17,7 @@ class AssetFiles
     /**
      * Package name.
      */
-    public function packageName(): string
+    public static function packageName(): string
     {
         return self::PACKAGE_NAME;
     }
@@ -25,7 +25,7 @@ class AssetFiles
     /**
      * Package version.
      */
-    public function packageVersion(): string
+    public static function packageVersion(): string
     {
         return self::PACKAGE_VERSION;
     }
@@ -33,8 +33,8 @@ class AssetFiles
     /**
      * Config value.
      */
-    public function configValue(string $configKeyName = 'package_information.name'): mixed
+    public static function configValue(string $configKeyName = 'package_information.name'): mixed
     {
-        return config($this->packageName().'.'.$configKeyName);
+        return config(self::packageName().'.'.$configKeyName);
     }
 }

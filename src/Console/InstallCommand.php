@@ -3,6 +3,7 @@
 namespace AhwetSen\AssetFiles\Console;
 
 use Illuminate\Console\Command;
+use Illuminate\Support\Str;
 
 class InstallCommand extends Command
 {
@@ -53,10 +54,10 @@ class InstallCommand extends Command
      */
     protected function seperator(): string
     {
-        return match (assetFilesConfigValue('seperator')) {
-            'dashed' => '------------------------------------------------------------------------------------------------------------------------------------------------------',
-            'dotted' => '......................................................................................................................................................',
-            default => '======================================================================================================================================================',
+        return match (assetFilesSeperator()) {
+            'dashed' => Str::repeat('-', assetFilesSeperatorLength()),
+            'dotted' => Str::repeat('.', assetFilesSeperatorLength()),
+            default => Str::repeat('=', assetFilesSeperatorLength()),
         };
     }
 
@@ -65,7 +66,7 @@ class InstallCommand extends Command
      */
     protected function startInstallation(): void
     {
-        foreach (assetFilesConfigValue('package_commands') as $packageCommand => $status) {
+        foreach (assetFilesPackageCommands() as $packageCommand => $status) {
             if ($status) {
                 $this->call('asset-files:'.$packageCommand.'-install');
 
