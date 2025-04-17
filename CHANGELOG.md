@@ -2,6 +2,18 @@
 
 All notable changes to `asset-files` will be documented in this file.
 
+## v1.2.0 - 2025-04-17
+
+### What's Changed
+
+* Update composer.json by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/18
+* Update composer.json by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/19
+* Update composer.json by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/20
+* Update composer.json by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/21
+* Update asset-files.php by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/22
+
+**Full Changelog**: https://github.com/ahwet-sen/asset-files/compare/v1.1.0...v1.2.0
+
 ## v1.1.0 - 2025-03-05
 
 ### What's Changed
