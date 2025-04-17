@@ -44,7 +44,7 @@ return [
 
     'package_commands' => [
         'assets' => true,
-        'config' => true,
+        'config' => false,
     ],
 
     /*
