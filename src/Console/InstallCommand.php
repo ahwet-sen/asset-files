@@ -54,10 +54,10 @@ class InstallCommand extends Command
      */
     protected function seperator(): string
     {
-        return match (seperator()) {
-            'dashed' => Str::repeat('-', seperatorLength()),
-            'dotted' => Str::repeat('.', seperatorLength()),
-            default => Str::repeat('=', seperatorLength()),
+        return match (assetFilesSeperator()) {
+            'dashed' => Str::repeat('-', assetFilesSeperatorLength()),
+            'dotted' => Str::repeat('.', assetFilesSeperatorLength()),
+            default => Str::repeat('=', assetFilesSeperatorLength()),
         };
     }
 
