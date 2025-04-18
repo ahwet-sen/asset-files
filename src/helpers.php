@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 use AhwetSen\AssetFiles\AssetFiles;
 use Illuminate\Support\Str;
 

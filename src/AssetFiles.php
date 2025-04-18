@@ -1,8 +1,10 @@
 <?php
 
+declare(strict_types=1);
+
 namespace AhwetSen\AssetFiles;
 
-class AssetFiles
+final class AssetFiles
 {
     /**
      * Package name.

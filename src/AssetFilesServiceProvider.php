@@ -1,10 +1,12 @@
 <?php
 
+declare(strict_types=1);
+
 namespace AhwetSen\AssetFiles;
 
 use Illuminate\Support\ServiceProvider;
 
-class AssetFilesServiceProvider extends ServiceProvider
+final class AssetFilesServiceProvider extends ServiceProvider
 {
     /**
      * Register any application services.
