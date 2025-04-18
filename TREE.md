@@ -6,6 +6,7 @@
 │  │  └─ config.yml
 │  ├─ dependabot.yml
 │  └─ workflows
+│     ├─ code-quality.yml
 │     ├─ dependabot-auto-merge.yml
 │     ├─ fix-php-code-style.yml
 │     ├─ normalize-composer-json.yml
@@ -5203,6 +5204,8 @@
 ├─ composer.json
 ├─ config
 │  └─ asset-files.php
+├─ pint.json
+├─ rector.php
 └─ src
    ├─ AssetFiles.php
    ├─ AssetFilesFacade.php
