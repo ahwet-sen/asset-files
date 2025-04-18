@@ -1,11 +1,13 @@
 <?php
 
+declare(strict_types=1);
+
 namespace AhwetSen\AssetFiles\Console;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
 
-class AssetsInstallCommand extends Command
+final class AssetsInstallCommand extends Command
 {
     /**
      * The name and signature of the console command.
