@@ -2,6 +2,15 @@
 
 All notable changes to `asset-files` will be documented in this file.
 
+## v1.3.0 - 2025-04-18
+
+### What's Changed
+
+* Add Code Quality Modern Php - Laravel Pint & Rector by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/23
+* Update TREE.md by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/24
+
+**Full Changelog**: https://github.com/ahwet-sen/asset-files/compare/v1.2.0...v1.3.0
+
 ## v1.2.0 - 2025-04-17
 
 ### What's Changed
