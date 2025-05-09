@@ -2,6 +2,15 @@
 
 All notable changes to `asset-files` will be documented in this file.
 
+## v1.4.0 - 2025-05-09
+
+### What's Changed
+
+* Add New Image Files by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/25
+* Update TREE.md by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/26
+
+**Full Changelog**: https://github.com/ahwet-sen/asset-files/compare/v1.3.0...v1.4.0
+
 ## v1.3.0 - 2025-04-18
 
 ### What's Changed
