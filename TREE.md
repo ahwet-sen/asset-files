@@ -2375,9 +2375,12 @@
 │  │  │  ├─ datatables.js
 │  │  │  ├─ datatables.min.css
 │  │  │  └─ datatables.min.js
-│  │  └─ bs5
-│  │     ├─ datatables.css
-│  │     ├─ datatables.js
+│  │  ├─ bs5
+│  │  │  ├─ datatables.css
+│  │  │  ├─ datatables.js
+│  │  │  ├─ datatables.min.css
+│  │  │  └─ datatables.min.js
+│  │  └─ default
 │  │     ├─ datatables.min.css
 │  │     └─ datatables.min.js
 │  ├─ drixo
