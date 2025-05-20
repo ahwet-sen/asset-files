@@ -2,6 +2,16 @@
 
 All notable changes to `asset-files` will be documented in this file.
 
+## v1.5.0 - 2025-05-20
+
+### What's Changed
+
+* Update composer.json by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/27
+* ahwet-sen-patch-28 by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/28
+* Update TREE.md by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/29
+
+**Full Changelog**: https://github.com/ahwet-sen/asset-files/compare/v1.4.0...v1.5.0
+
 ## v1.4.0 - 2025-05-09
 
 ### What's Changed
