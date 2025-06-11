@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }} # Ensure the branch is checked out instead of a detached HEAD
 
       - name: Set User
         run: |
