@@ -2,6 +2,24 @@
 
 All notable changes to `asset-files` will be documented in this file.
 
+## v1.6.0 - 2025-06-19
+
+### What's Changed
+
+* Update composer.json by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/30
+* Bump stefanzweifel/git-auto-commit-action from 5 to 6 by @dependabot in https://github.com/ahwet-sen/asset-files/pull/31
+* Update composer.json by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/32
+* Update normalize-composer-json.yml by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/33
+* Update composer.json by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/34
+* Create jquery-ui.min.js by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/35
+* Update TREE.md by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/36
+
+### New Contributors
+
+* @dependabot made their first contribution in https://github.com/ahwet-sen/asset-files/pull/31
+
+**Full Changelog**: https://github.com/ahwet-sen/asset-files/compare/v1.5.0...v1.6.0
+
 ## v1.5.0 - 2025-05-20
 
 ### What's Changed
