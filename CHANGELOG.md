@@ -2,6 +2,18 @@
 
 All notable changes to `asset-files` will be documented in this file.
 
+## v1.7.0 - 2025-09-08
+
+### What's Changed
+
+* Update composer.json by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/37
+* Update composer.json by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/38
+* Update composer.json by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/39
+* Bump actions/checkout from 4 to 5 by @dependabot[bot] in https://github.com/ahwet-sen/asset-files/pull/40
+* Update composer.json by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/41
+
+**Full Changelog**: https://github.com/ahwet-sen/asset-files/compare/v1.6.0...v1.7.0
+
 ## v1.6.0 - 2025-06-19
 
 ### What's Changed
