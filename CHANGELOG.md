@@ -2,6 +2,16 @@
 
 All notable changes to `asset-files` will be documented in this file.
 
+## v1.8.0 - 2025-09-30
+
+### What's Changed
+
+* Change docker-compose.yml to compose.yaml with indent size 4 by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/42
+* Update laravel/laravel version to ^12.5.0 by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/43
+* Update supported package version to v1.8.0 by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/44
+
+**Full Changelog**: https://github.com/ahwet-sen/asset-files/compare/v1.7.0...v1.8.0
+
 ## v1.7.0 - 2025-09-08
 
 ### What's Changed
