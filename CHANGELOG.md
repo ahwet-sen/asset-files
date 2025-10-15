@@ -2,6 +2,16 @@
 
 All notable changes to `asset-files` will be documented in this file.
 
+## v1.9.0 - 2025-10-15
+
+### What's Changed
+
+* Update laravel/laravel version to ^12.6.0 by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/45
+* Bump stefanzweifel/git-auto-commit-action from 6 to 7 by @dependabot[bot] in https://github.com/ahwet-sen/asset-files/pull/46
+* Update laravel/laravel version to ^12.7.0 by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/47
+
+**Full Changelog**: https://github.com/ahwet-sen/asset-files/compare/v1.8.0...v1.9.0
+
 ## v1.8.0 - 2025-09-30
 
 ### What's Changed
