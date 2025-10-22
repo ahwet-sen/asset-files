@@ -19,8 +19,23 @@ jobs:
           coverage: none
           tools: composer:v2
 
+      - name: Cache Composer dependencies
+        uses: actions/cache@v4
+        with:
+          path: |
+            vendor
+            ~/.composer/cache
+          key: ${{ runner.os }}-composer-${{ hashFiles('**/composer.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-composer-
+
+      - name: Set up Composer auth for GitHub
+        run: |
+          mkdir -p $HOME/.composer
+          echo '{"github-oauth": {"github.com": "${{ secrets.GITHUB_TOKEN }}"}}' > $HOME/.composer/auth.json
+
       - name: Install Composer Dependencies
-        run: composer install --prefer-dist --no-progress
+        run: composer install --prefer-source --no-progress --no-interaction
 
       - name: Run Laravel Pint (Formatter)
         run: ./vendor/bin/pint
