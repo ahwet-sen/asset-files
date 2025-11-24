@@ -2,6 +2,20 @@
 
 All notable changes to `asset-files` will be documented in this file.
 
+## v1.10.0 - 2025-11-24
+
+### What's Changed
+
+* Update laravel/laravel version to ^12.7.1 by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/48
+* Update laravel/laravel version to ^12.9.0 by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/49
+* Update laravel/laravel version to ^12.9.1 by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/50
+* Update laravel/laravel version to ^12.10.0 by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/51
+* Update laravel/laravel version to ^12.10.1 by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/52
+* Bump actions/checkout from 5 to 6 by @dependabot[bot] in https://github.com/ahwet-sen/asset-files/pull/53
+* Update package version to v1.10.0 by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/54
+
+**Full Changelog**: https://github.com/ahwet-sen/asset-files/compare/v1.9.0...v1.10.0
+
 ## v1.9.0 - 2025-10-15
 
 ### What's Changed
