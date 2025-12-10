@@ -2,6 +2,16 @@
 
 All notable changes to `asset-files` will be documented in this file.
 
+## v1.11.0 - 2025-12-10
+
+### What's Changed
+
+* Update PHP version from 8.3 to 8.4 by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/56
+* Update laravel/pint and rector/rector versions by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/57
+* Update supported version to v1.11.0 by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/58
+
+**Full Changelog**: https://github.com/ahwet-sen/asset-files/compare/v1.10.0...v1.11.0
+
 ## v1.10.0 - 2025-11-24
 
 ### What's Changed
