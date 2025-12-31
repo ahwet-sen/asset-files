@@ -36,7 +36,7 @@ final class AssetsInstallCommand extends Command
      */
     protected function assets(): void
     {
-        (new Filesystem)->copyDirectory(__DIR__.'/../../assets', public_path('asset-files'));
+        (new Filesystem)->copyDirectory(__DIR__.'/../../assets', public_path('vendor/asset-files'));
 
         $this->info('     -----> The asset file publishing process has been successfully completed.');
     }
