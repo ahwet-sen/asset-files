@@ -2,6 +2,16 @@
 
 All notable changes to `asset-files` will be documented in this file.
 
+## v1.12.0 - 2025-12-31
+
+### What's Changed
+
+* Bump actions/cache from 4 to 5 by @dependabot[bot] in https://github.com/ahwet-sen/asset-files/pull/59
+* Change asset files destination to vendor directory by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/60
+* Update package version to v1.12.0 by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/61
+
+**Full Changelog**: https://github.com/ahwet-sen/asset-files/compare/v1.11.0...v1.12.0
+
 ## v1.11.0 - 2025-12-10
 
 ### What's Changed
