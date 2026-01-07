@@ -2,6 +2,15 @@
 
 All notable changes to `asset-files` will be documented in this file.
 
+## v1.13.0 - 2026-01-07
+
+### What's Changed
+
+* Update success message format in AssetsInstallCommand by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/62
+* Update package version to v1.13.0 by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/63
+
+**Full Changelog**: https://github.com/ahwet-sen/asset-files/compare/v1.12.0...v1.13.0
+
 ## v1.12.0 - 2025-12-31
 
 ### What's Changed
