@@ -86,11 +86,7 @@ final class InstallCommand extends Command
      */
     protected function end(): void
     {
-        $this->info('     -----> asset-files scaffolding installed successfully.');
-
-        $this->writeln($this->seperator());
-
-        $this->comment('     -----> The installation process was carried out successfully. Please visit your web page.');
+        $this->info('- asset-files scaffolding installed successfully.');
 
         $this->writeln($this->seperator());
     }
