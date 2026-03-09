@@ -2,6 +2,21 @@
 
 All notable changes to `asset-files` will be documented in this file.
 
+## v1.14.0 - 2026-03-09
+
+### What's Changed
+
+* Update laravel/laravel version to ^12.11.1 by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/64
+* Bump laravel/laravel, laravel/pint, and rector/rector by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/65
+* Update package versions in composer.json by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/67
+* Update Laravel framework and Laravel version constraints by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/68
+* Upgrade PHP version from 8.3 to 8.4 by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/69
+* Update PHP version requirement to ^8.3 by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/70
+* Update package version to v1.14.0 by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/71
+* Update PHP version requirement to include 8.2 by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/72
+
+**Full Changelog**: https://github.com/ahwet-sen/asset-files/compare/v1.13.0...v1.14.0
+
 ## v1.13.0 - 2026-01-07
 
 ### What's Changed
