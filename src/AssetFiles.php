@@ -14,7 +14,7 @@ final class AssetFiles
     /**
      * Package version.
      */
-    private const PACKAGE_VERSION = 'v1.13.0';
+    private const PACKAGE_VERSION = 'v1.14.0';
 
     /**
      * Package name.
