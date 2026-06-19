@@ -2,6 +2,16 @@
 
 All notable changes to `asset-files` will be documented in this file.
 
+## v1.15.0 - 2026-06-19
+
+### What's Changed
+
+* Bump dependabot/fetch-metadata from 2 to 3 by @dependabot[bot] in https://github.com/ahwet-sen/asset-files/pull/73
+* Bump actions/checkout from 6 to 7 by @dependabot[bot] in https://github.com/ahwet-sen/asset-files/pull/74
+* Update package version to v1.15.0 by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/75
+
+**Full Changelog**: https://github.com/ahwet-sen/asset-files/compare/v1.14.0...v1.15.0
+
 ## v1.14.0 - 2026-03-09
 
 ### What's Changed
