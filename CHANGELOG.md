@@ -2,6 +2,15 @@
 
 All notable changes to `asset-files` will be documented in this file.
 
+## v1.16.0 - 2026-06-24
+
+### What's Changed
+
+* Bump actions/cache from 5 to 6 by @dependabot[bot] in https://github.com/ahwet-sen/asset-files/pull/76
+* Update package version to v1.16.0 by @ahwet-sen in https://github.com/ahwet-sen/asset-files/pull/77
+
+**Full Changelog**: https://github.com/ahwet-sen/asset-files/compare/v1.15.0...v1.16.0
+
 ## v1.15.0 - 2026-06-19
 
 ### What's Changed
