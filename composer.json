@@ -1,0 +1,60 @@
+{
+    "name": "ahwet-sen/asset-files",
+    "description": "Asset Files.",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "ahwet-sen",
+        "asset-files"
+    ],
+    "authors": [
+        {
+            "name": "Ahwet Şen",
+            "email": "ahwt93sn@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/ahwet-sen/asset-files",
+    "support": {
+        "issues": "https://github.com/ahwet-sen/asset-files/issues",
+        "source": "https://github.com/ahwet-sen/asset-files"
+    },
+    "require": {
+        "php": "^8.2",
+        "illuminate/config": "^12.0 || ^13.0",
+        "illuminate/filesystem": "^12.0 || ^13.0",
+        "illuminate/support": "^12.0 || ^13.0",
+        "illuminate/validation": "^12.0 || ^13.0"
+    },
+    "require-dev": {
+        "driftingly/rector-laravel": "^2.7.3",
+        "laravel/framework": "^12.0 || ^13.0",
+        "laravel/laravel": "^12.11.2 || ^13.0",
+        "laravel/pint": "^1.32.3",
+        "rector/rector": "^2.8.5"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "AhwetSen\\AssetFiles\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "aliases": {
+                "AssetFiles": "AhwetSen\\AssetFiles\\AssetFilesFacade"
+            },
+            "providers": [
+                "AhwetSen\\AssetFiles\\AssetFilesServiceProvider"
+            ]
+        }
+    }
+}

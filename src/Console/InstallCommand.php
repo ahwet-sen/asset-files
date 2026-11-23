@@ -1,0 +1,89 @@
+<?php
+
+declare(strict_types=1);
+
+namespace AhwetSen\AssetFiles\Console;
+
+use Illuminate\Console\Command;
+use Illuminate\Support\Str;
+
+final class InstallCommand extends Command
+{
+    /**
+     * The name and signature of the console command.
+     *
+     * @var string
+     */
+    protected $signature = 'asset-files:install';
+
+    /**
+     * The console command description.
+     *
+     * @var string
+     */
+    protected $description = 'Install the asset-files package files';
+
+    /**
+     * Execute the console command.
+     */
+    public function handle(): void
+    {
+        $this->start();
+
+        $this->startInstallation();
+
+        $this->end();
+    }
+
+    /**
+     * Start.
+     */
+    protected function start(): void
+    {
+        $this->writeln($this->seperator());
+    }
+
+    /**
+     * Write ln.
+     */
+    protected function writeln(string $line): void
+    {
+        echo $line.PHP_EOL;
+    }
+
+    /**
+     * Seperator.
+     */
+    protected function seperator(): string
+    {
+        return match (assetFilesSeperator()) {
+            'dashed' => Str::repeat('-', assetFilesSeperatorLength()),
+            'dotted' => Str::repeat('.', assetFilesSeperatorLength()),
+            default => Str::repeat('=', assetFilesSeperatorLength()),
+        };
+    }
+
+    /**
+     * Start installation.
+     */
+    protected function startInstallation(): void
+    {
+        foreach (assetFilesPackageCommands() as $packageCommand => $status) {
+            if ($status) {
+                $this->call('asset-files:'.$packageCommand.'-install');
+
+                $this->writeln($this->seperator());
+            }
+        }
+    }
+
+    /**
+     * End.
+     */
+    protected function end(): void
+    {
+        $this->components->success('- asset-files scaffolding installed successfully.');
+
+        $this->writeln($this->seperator());
+    }
+}
